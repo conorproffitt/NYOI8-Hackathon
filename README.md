@@ -1,1 +1,0 @@
-# NYOI8-Hackathon
