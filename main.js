@@ -11,20 +11,19 @@ const imgARRAY = [
     ]
 
 
-const randImg = Math.floor(Math.random() * arr.length);
+const randImg = Math.floor(Math.random() * imgARRAY.length);
 
-setInterval(alert(Object.keys(imgArray[randImg])), 1000)
+setInterval(alert(Object.keys(imgARRAY[randImg])[0]), 1000)
 
 const images = document.querySelectorAll('img')
-/*
 
 for(i = 0 ; i<images.length ; i++){
 
     
-    images[i].src = Object.values(imgArray[randImg])
+    images[i].src = Object.values(imgARRAY[randImg])[0];
 
 }
-*/
+
 
 
 
