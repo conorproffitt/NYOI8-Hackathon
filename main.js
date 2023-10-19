@@ -1,13 +1,33 @@
 //const contents = document.getElementById('contents')
 ////contents.parentNode.removeChild(contents)
-document.addEventListener('DOMContentLoaded', () => {
+
+
+
+const imgARRAY = [
+
+    {"ELEPHANT": "https://pics.craiyon.com/2023-07-19/ce7d04fee3924afba897a478efbd5923.webp"}
+    , {"PIGEON": "https://i.pinimg.com/736x/4a/33/4d/4a334d258764587c90edab9e2aaea1d4.jpg"}
+    
+    ]
+
+
+const randImg = Math.floor(Math.random() * arr.length);
+
+setInterval(alert(Object.keys(imgArray[randImg])), 1000)
+
 const images = document.querySelectorAll('img')
+/*
 
-for(let ele of array){
+for(i = 0 ; i<images.length ; i++){
 
-    ele.src = "https://pics.craiyon.com/2023-07-19/ce7d04fee3924afba897a478efbd5923.webp"
+    
+    images[i].src = Object.values(imgArray[randImg])
 
 }
-setInterval(alert('ANIMAL'), 1000)
+*/
 
-})
+
+
+
+
+
